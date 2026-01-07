@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liam King | Teacher Digital Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f4f6f8;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #fff;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #2c3e50;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #ecf0f1;
+      padding: 1.5rem;
+      border-radius: 6px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 2rem;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Liam King</h1>
+  <p>Teacher Candidate | Humanities & Leadership | Lifelong Learner</p>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#philosophy">Teaching Philosophy</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate teacher candidate with a background in Humanities, Leadership Foundations, and Psychology. I value empathy, collaboration, and purpose-driven learning, and I strive to create inclusive classroom environments where all students feel supported and challenged.
+  </p>
+</section>
+
+<section id="philosophy">
+  <h2>Teaching Philosophy</h2>
+  <p>
+    I believe students learn best when they feel safe, respected, and engaged. My teaching approach emphasizes:
+  </p>
+  <ul>
+    <li>Inquiry-based and experiential learning</li>
+    <li>Strengths-based assessment and feedback</li>
+    <li>Collaboration, empathy, and student voice</li>
+    <li>Connecting curriculum to real-world contexts</li>
+  </ul>
+</section>
+
+<section id="portfolio">
+  <h2>Portfolio Highlights</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Lesson Plans</h3>
+      <p>Cross-curricular lessons integrating literacy, science, and social studies.</p>
+    </div>
+    <div class="card">
+      <h3>Assessment & Evaluation</h3>
+      <p>Rubrics, success criteria, and formative assessment strategies.</p>
+    </div>
+    <div class="card">
+      <h3>Classroom Management</h3>
+      <p>Positive behaviour supports, PBIS strategies, and digital tools such as ClassDojo.</p>
+    </div>
+    <div class="card">
+      <h3>Inquiry Projects</h3>
+      <p>Student-centered inquiry projects that promote critical thinking and creativity.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+  <ul>
+    <li>Practicum placements in elementary classrooms</li>
+    <li>Volunteer youth soccer coach (ages 2–10)</li>
+    <li>Team leadership experience in fast-paced work environments</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    Email: <strong>liam.king@email.com</strong><br />
+    LinkedIn: <strong>linkedin.com/in/liamking</strong>
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2026 Liam King | Teacher Digital Portfolio</p>
+</footer>
+
+</body>
+</html>
